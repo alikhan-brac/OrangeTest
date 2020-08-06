@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CheckOrangeHr]">
+  <test thread-count="5" name="PoisitiveCheck(failed)">
+    <classes>
+      <class name="org.hr.OrangeTest.Test.LeavePageTest">
+        <methods>
+          <include name="AssignLeaveTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.hr.OrangeTest.Test.LeavePageTest -->
+    </classes>
+  </test> <!-- PoisitiveCheck(failed) -->
+</suite> <!-- Failed suite [CheckOrangeHr] -->

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CheckOrangeHr" duration-ms="31052" started-at="2020-08-06T09:11:35 ALMT" finished-at="2020-08-06T09:12:06 ALMT">
+    <groups>
+    </groups>
+    <test name="PoisitiveCheck" duration-ms="31052" started-at="2020-08-06T09:11:35 ALMT" finished-at="2020-08-06T09:12:06 ALMT">
+      <class name="org.hr.OrangeTest.Test.LoginTest">
+        <test-method status="PASS" signature="CheckPgTitle()[pri:1, instance:org.hr.OrangeTest.Test.LoginTest@30b8a058]" name="CheckPgTitle" duration-ms="8940" started-at="2020-08-06T09:11:35 ALMT" finished-at="2020-08-06T09:11:44 ALMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckPgTitle -->
+        <test-method status="PASS" signature="logintest(java.util.List)[pri:0, instance:org.hr.OrangeTest.Test.LoginTest@30b8a058]" name="logintest" duration-ms="5853" started-at="2020-08-06T09:11:46 ALMT" data-provider="loginData" depends-on-methods="org.hr.OrangeTest.Test.LoginTest.CheckPgTitle" finished-at="2020-08-06T09:11:52 ALMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[LoginDTO [username=admin, password=admin123]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- org.hr.OrangeTest.Test.LoginTest -->
+      <class name="org.hr.OrangeTest.Test.LeavePageTest">
+        <test-method status="PASS" signature="AssignLeavePage()[pri:1, instance:org.hr.OrangeTest.Test.LeavePageTest@7494e528]" name="AssignLeavePage" duration-ms="3426" started-at="2020-08-06T09:11:52 ALMT" finished-at="2020-08-06T09:11:56 ALMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssignLeavePage -->
+        <test-method status="PASS" signature="AssignLeaveTest(java.util.List)[pri:2, instance:org.hr.OrangeTest.Test.LeavePageTest@7494e528]" name="AssignLeaveTest" duration-ms="7684" started-at="2020-08-06T09:11:56 ALMT" data-provider="assignLVdata" finished-at="2020-08-06T09:12:03 ALMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[AssignLvDTO [EmpNm=Linda Anderson, LvTyp=Vacation, FromMnt=Oct, FromYr=2020, FromDay=10, ToMnt=Oct, ToYr=2020, ToDay=12, Cmnt=Test Comment]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssignLeaveTest -->
+        <test-method status="PASS" signature="ClickConfirm()[pri:3, instance:org.hr.OrangeTest.Test.LeavePageTest@7494e528]" name="ClickConfirm" duration-ms="2974" started-at="2020-08-06T09:12:03 ALMT" finished-at="2020-08-06T09:12:06 ALMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickConfirm -->
+      </class> <!-- org.hr.OrangeTest.Test.LeavePageTest -->
+    </test> <!-- PoisitiveCheck -->
+  </suite> <!-- CheckOrangeHr -->
+</testng-results>

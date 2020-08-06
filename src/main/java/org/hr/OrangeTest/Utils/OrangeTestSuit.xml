@@ -1,0 +1,10 @@
+<suite name = "CheckOrangeHr">
+
+   <test name = "PoisitiveCheck">
+      <classes>
+      	<class name = "org.hr.OrangeTest.Test.LoginTest" />
+      	<class name = "org.hr.OrangeTest.Test.LeavePageTest" />
+      </classes>
+   </test>
+
+</suite>  
